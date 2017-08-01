@@ -1,0 +1,670 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /><title>Catalogue of Life - 2017 Annual Checklist : Search all names</title><link href="/annual-checklist/2017/styles/style.css?2017 Annual Checklist" media="all" rel="stylesheet" type="text/css" />
+<!--[if IE 6]> <link href="/annual-checklist/2017/styles/style-ie6.css?2017 Annual Checklist" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 7]> <link href="/annual-checklist/2017/styles/style-ie7.css?2017 Annual Checklist" media="all" rel="stylesheet" type="text/css" /><![endif]--><style type="text/css">
+<!--
+    @import "/annual-checklist/2017/scripts/library/dojo/dijit/themes/tundra/tundra.css";
+-->
+</style>
+<script type="text/javascript">
+//<![CDATA[
+    var djConfig = {"locale":"en"};
+//]]>
+</script>
+<script type="text/javascript" src="/annual-checklist/2017/scripts/library/dojo/dojo/dojo.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+dojo.require("dijit.form.NumberSpinner");
+    dojo.require("dijit.form.Button");
+    dojo.require("dijit.form.Form");
+    dojo.require("dojo.parser");
+dojo.addOnLoad(function() {
+    dojo.forEach(zendDijits, function(info) {
+        var n = dojo.byId(info.id);
+        if (null != n) {
+            dojo.attr(n, dojo.mixin({ id: info.id }, info.params));
+        }
+    });
+    dojo.parser.parse();
+});
+var zendDijits = [{"id":"items","params":{"constraints":"{\"min\":1,\"max\":999}","invalidMessage":"Invalid value","rangeMessage":"Value out of range","maxLength":3,"required":"true","dojoType":"dijit.form.NumberSpinner"}},{"id":"update","params":{"label":"Update","dojoType":"dijit.form.Button"}},{"id":"itemsPerPage","params":{"dojoType":"dijit.form.Form"}}];
+//]]>
+
+</script><script type="text/javascript" src="/annual-checklist/2017/scripts/main.js?2017 Annual Checklist"></script>
+
+
+
+<script type="text/javascript">
+var cookieExpiration = 14;
+var mapInTaxonomicTree = 0;
+var baseUrl = "/annual-checklist/2017";
+</script>
+
+</head>
+<body class="tundra">
+        <div id="header">
+        <span class="title">Catalogue of Life: 2017 Annual Checklist</span>
+    </div>
+            <div id="languagebar">
+        <ul>
+                    <li>
+            <a id="selected"            href="javascript:changeLanguage('en');" title="">
+            English</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('fr');" title="Français">
+            French</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('es');" title="Español">
+            Spanish</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('zh');" title="中文">
+            Chinese</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('ru');" title="русский">
+            Russian</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('pt');" title="Português">
+            Portuguese</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('nl');" title="Nederlands">
+            Dutch</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('de');" title="Deutsch">
+            German</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('pl');" title="Polski">
+            Polish</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('lt');" title="Lietuvių">
+            Lithuanian</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('th');" title="ไทย">
+            Thai</a>
+            </li>
+                    <li>
+            <a             href="javascript:changeLanguage('vi');" title="Tiếng Việt">
+            Vietnamese</a>
+            </li>
+                </ul>
+        <div class="clear"></div>
+
+        </div>
+    <div id="menu" class="view">
+        <span id="log"></span>
+        <ul id="nav">
+          <li class="">
+            <a href="/annual-checklist/2017/browse/tree">
+            <img
+                src="/annual-checklist/2017/images/Icon_Browse.gif"
+                alt="Browse"/>
+            <span>Browse</span></a>
+            <ul>
+              <li class=""><a href="/annual-checklist/2017/browse/tree?aa8ae5d359b41667ba5923618900515e">
+              Taxonomic tree</a></li>
+              <li class=""><a href="/annual-checklist/2017/browse/classification?aa8ae5d359b41667ba5923618900515e">
+              Taxonomic classification</a></li>
+            </ul>
+          </li>
+          <li class="menuselected">
+            <a href="/annual-checklist/2017/search/all">
+            <img src="/annual-checklist/2017/images/Icon_Search.gif"
+                 alt="Search"/>
+            <span>Search</span></a>
+            <ul>
+              <li class="menuselected"><a href="/annual-checklist/2017/search/all?aa8ae5d359b41667ba5923618900515e">
+              Search all names</a></li>
+              <li class=""><a href="/annual-checklist/2017/search/scientific?aa8ae5d359b41667ba5923618900515e">
+              Search for scientific names</a></li>
+              <li class=""><a href="/annual-checklist/2017/search/common?aa8ae5d359b41667ba5923618900515e">
+              Search for common names</a></li>
+              <li class=""><a href="/annual-checklist/2017/search/distribution?aa8ae5d359b41667ba5923618900515e">
+              Search by distribution</a></li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/annual-checklist/2017/info/about">
+            <img src="/annual-checklist/2017/images/Icon_Info.gif"
+                 alt="Info"/>
+            <span>Info</span></a>
+            <ul>
+              <li class=""><a href="/annual-checklist/2017/info/about">
+                  About the Catalogue of Life</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/special">
+                  What's new?</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/ac">
+                  2017 Annual Checklist</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/databases">
+                  Source databases</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/totals">
+                  Species totals</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/hierarchy">
+                  Classification, estimates & extinct taxa</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/copyright">
+                Copyright, reproduction & sale</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/cite">
+                How to cite this work</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/websites">
+                Web sites</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/contact">
+                Contact us</a></li>
+              <li class=""><a href="/annual-checklist/2017/info/acknowledgements">
+                Acknowledgments</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+    <div id="right-col">
+        <div id="content" class="view ">
+            <h1 class="page_header">
+Search all names - Results for "Abies"</h1>
+<div class="results_header">
+<div class="results_counter" align="right">
+Records found:
+485</div>
+<div class="results_form"><form id="itemsPerPage" enctype="application/x-www-form-urlencoded" method="post" action="/annual-checklist/2017/search/all"><div class="items-form">
+<dt id="itemsGroup-label">&nbsp;</dt><dd id="itemsGroup-element"><fieldset id="fieldset-itemsGroup"><dl>
+<dt id="items-label"><label for="items" class="required">Records per page:</label></dt>
+<dd>
+<input places="3" style="width: 70px" id="items" name="items" value="20" type="text" /></dd>
+<dt id="update-label">&nbsp;</dt><dd id="update-element">
+<input id="update" name="update" value="Update" type="submit" /></dd></dl></fieldset></dd>
+<dt id="hidden-label">&nbsp;</dt><dd id="hidden-element"><fieldset id="fieldset-hidden"><dl>
+<dt id="key-label">&nbsp;</dt>
+<dd id="key-element">
+<input type="hidden" name="key" value="Abies" id="key" /></dd>
+<dt id="match-label">&nbsp;</dt>
+<dd id="match-element">
+<input type="hidden" name="match" value="1" id="match" /></dd>
+<dt id="fuzzy-label">&nbsp;</dt>
+<dd id="fuzzy-element">
+<input type="hidden" name="fuzzy" value="" id="fuzzy" /></dd>
+<dt id="fossil-label">&nbsp;</dt>
+<dd id="fossil-element">
+<input type="hidden" name="fossil" value="1" id="fossil" /></dd></dl></fieldset></dd></div></form></div>
+</div>
+<div class="page_links">
+<a href="/annual-checklist/2017/search/export">
+    Export search results</a> |
+<a href="/annual-checklist/2017/search/all">
+    New search</a>
+</div>
+<div class="paginationControl">
+<!-- Previous page link -->
+
+<!-- Show first page if not present -->
+
+<!-- Numbered page links -->
+      <span class="page-current">1</span> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/2/sort//direction/asc">
+        2    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/3/sort//direction/asc">
+        3    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/4/sort//direction/asc">
+        4    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/5/sort//direction/asc">
+        5    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/6/sort//direction/asc">
+        6    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/7/sort//direction/asc">
+        7    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/8/sort//direction/asc">
+        8    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/9/sort//direction/asc">
+        9    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/10/sort//direction/asc">
+        10    </a> |
+  
+<!-- Show lastpage if not present -->
+            ... |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/25/sort//direction/asc">
+        25    </a> |
+
+<!-- Next page link -->
+  <a class="page-slider" href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/2/sort//direction/asc">
+     Next &gt;&gt;
+  </a>
+</div>
+<table class="results">
+    <tr class="even">
+        <th class="horizontal">
+            <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/sort/name/direction/asc">
+              Name</a>
+            <span class="sort-arrow"></span>
+        </th>
+        <th class="horizontal">
+            <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/sort/rank/direction/asc">
+              Rank</a>
+            <span class="sort-arrow"></span>
+        </th>
+        <th class="horizontal">
+            <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/sort/status/direction/asc">
+              Name status</a>
+            <span class="sort-arrow"></span>
+        </th>
+        <th class="horizontal">
+            <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/sort/group/direction/asc">
+              Group</a>
+            <span class="sort-arrow"></span>
+        </th>
+        <th class="horizontal">
+            <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/sort/db/direction/asc">
+              Source database</a>
+            <span class="sort-arrow"></span>
+        </th>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/browse/tree/id/200f52638f6d098b26df65d3b26f0f09"><i><span class="matchHighlight">Abies</span></i></a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/browse/tree/id/200f52638f6d098b26df65d3b26f0f09">
+                Genus            </a>
+        </td>
+        <td class="field_header_black"></td>
+        <td>Plantae</td>
+        <td>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/c526234e655cec65618f58161d24932a/synonym/4251802078a0d844bda6c62ae5a145aa"><i><span class="matchHighlight">Abies</span> <span class="matchHighlight">abies</span></i>  (L.) Rusby</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/c526234e655cec65618f58161d24932a/synonym/4251802078a0d844bda6c62ae5a145aa">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/c526234e655cec65618f58161d24932a/synonym/4251802078a0d844bda6c62ae5a145aa"><i>Picea abies var. abies</i></a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/8b551341829068875a87973edac352cb/synonym/8c1130d8762b43976d80a1522731da40"><i><span class="matchHighlight">Abies</span> akatodo</i>  Miyabe ex Sarg.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/8b551341829068875a87973edac352cb/synonym/8c1130d8762b43976d80a1522731da40">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/8b551341829068875a87973edac352cb/synonym/8c1130d8762b43976d80a1522731da40"><i>Abies sachalinensis var. sachalinensis</i></a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553"><i><span class="matchHighlight">Abies</span> alba</i>  Mill.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553">
+                Species            </a>
+        </td>
+        <td class="field_header_black">accepted name</td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/eb680191b2ca239c6068426be96be71b"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">subsp.</span>  apennina</i>  Brullo, Scelsi & Spampinato</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/eb680191b2ca239c6068426be96be71b">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/eb680191b2ca239c6068426be96be71b"><i>Abies  alba</i>  Mill.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/6a87ffbec80d15005452f6159eec7dd0/synonym/6caeb0df03e987eedb65757fec96888a"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">subsp.</span>  borisii-regis</i>  (Mattf.) Kozuharov & N. Andreev</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/6a87ffbec80d15005452f6159eec7dd0/synonym/6caeb0df03e987eedb65757fec96888a">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/6a87ffbec80d15005452f6159eec7dd0/synonym/6caeb0df03e987eedb65757fec96888a"><i>Abies  borisii-regis</i>  Mattf.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/b0d704eb5a9dc9ebd73f1e36c196eca5/synonym/4245c35177c6180b61a9a89490e8216d"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">subsp.</span>  equi-trojani</i>  (Asch. & Sint. ex Boiss.) Asch. & Graebn.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/b0d704eb5a9dc9ebd73f1e36c196eca5/synonym/4245c35177c6180b61a9a89490e8216d">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/b0d704eb5a9dc9ebd73f1e36c196eca5/synonym/4245c35177c6180b61a9a89490e8216d"><i>Abies  nordmanniana  <span class="marker">subsp.</span>  equi-trojani</i>  (Asch. & Sint. ex Boiss.) Coode & Cullen</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/94d2b0fa5ac9a92513bdeccbe6ff9281/synonym/b7e919e8aa54d0ff9382321e1582b204"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">subsp.</span>  nebrodensis</i>  (Lojac.) Nitz.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/94d2b0fa5ac9a92513bdeccbe6ff9281/synonym/b7e919e8aa54d0ff9382321e1582b204">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/94d2b0fa5ac9a92513bdeccbe6ff9281/synonym/b7e919e8aa54d0ff9382321e1582b204"><i>Abies  nebrodensis</i>  (Lojac.) Mattei</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/6a87ffbec80d15005452f6159eec7dd0/synonym/51ffe7c555920c332b9e938c628da071"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">var.</span>  acutifolia</i>  Turrill</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/6a87ffbec80d15005452f6159eec7dd0/synonym/51ffe7c555920c332b9e938c628da071">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/6a87ffbec80d15005452f6159eec7dd0/synonym/51ffe7c555920c332b9e938c628da071"><i>Abies  borisii-regis</i>  Mattf.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/2eefce687f3561d3546425d6ec108766/synonym/ae564b2c2bec684f95ddd585b4b8c9a5"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">var.</span>  cephalonica</i>  (Loudon) Richt.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/2eefce687f3561d3546425d6ec108766/synonym/ae564b2c2bec684f95ddd585b4b8c9a5">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/2eefce687f3561d3546425d6ec108766/synonym/ae564b2c2bec684f95ddd585b4b8c9a5"><i>Abies  cephalonica</i>  Loudon</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/94d2b0fa5ac9a92513bdeccbe6ff9281/synonym/d49b32ef9a81ec8a160813074d4e3741"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">var.</span>  nebrodensis</i>  (Lojac.) Svoboda</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/94d2b0fa5ac9a92513bdeccbe6ff9281/synonym/d49b32ef9a81ec8a160813074d4e3741">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/94d2b0fa5ac9a92513bdeccbe6ff9281/synonym/d49b32ef9a81ec8a160813074d4e3741"><i>Abies  nebrodensis</i>  (Lojac.) Mattei</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/c7fa032c35b10400dfd4ac72c5de62d4"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">var.</span>  pardei</i>  (Gaussen) Silba</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/c7fa032c35b10400dfd4ac72c5de62d4">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/c7fa032c35b10400dfd4ac72c5de62d4"><i>Abies  alba</i>  Mill.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/e6462f8a18b7118b04144b8881b62509"><i><span  class="matchHighlight">Abies</span>  alba  <span class="marker">var.</span>  podolica</i>  R.I. Schröd.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/e6462f8a18b7118b04144b8881b62509">
+                Infraspecific taxon            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/12dca9c49741815f82400bb7bff50553/synonym/e6462f8a18b7118b04144b8881b62509"><i>Abies  alba</i>  Mill.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/f726463db2d3fa21cdf9d67d2e09c549/synonym/0282f1d18c8de65ad8fd879635870530"><i><span class="matchHighlight">Abies</span> albertiana</i>  A. Murray bis</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/f726463db2d3fa21cdf9d67d2e09c549/synonym/0282f1d18c8de65ad8fd879635870530">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/f726463db2d3fa21cdf9d67d2e09c549/synonym/0282f1d18c8de65ad8fd879635870530"><i>Tsuga heterophylla</i>  (Raf.) Sarg.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/5986cd410434c4fed61aefab7c7c5e2c/synonym/f024ea036bea01dae9325aa577db4b14"><i><span class="matchHighlight">Abies</span> alcoquiana</i>  Veitch ex Lindl.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/5986cd410434c4fed61aefab7c7c5e2c/synonym/f024ea036bea01dae9325aa577db4b14">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/5986cd410434c4fed61aefab7c7c5e2c/synonym/f024ea036bea01dae9325aa577db4b14"><i>Picea alcoquiana var. alcoquiana</i></a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/c526234e655cec65618f58161d24932a/synonym/b1029cb6b79338209e3d60f5974d33fd"><i><span class="matchHighlight">Abies</span> alpestris</i>  Brügger</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/c526234e655cec65618f58161d24932a/synonym/b1029cb6b79338209e3d60f5974d33fd">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/c526234e655cec65618f58161d24932a/synonym/b1029cb6b79338209e3d60f5974d33fd"><i>Picea abies var. abies</i></a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/0126daf55af7564e3117054153d2ebc8"><i><span class="matchHighlight">Abies</span> amabilis</i>  Douglas ex J. Forbes</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/0126daf55af7564e3117054153d2ebc8">
+                Species            </a>
+        </td>
+        <td class="field_header_black">accepted name</td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/3be9eea216a4dfd7ee8ec40986f890d9/synonym/0a4e689ba409e11df5d3e784770b267e"><i><span class="matchHighlight">Abies</span> americana</i>  K. Koch</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/3be9eea216a4dfd7ee8ec40986f890d9/synonym/0a4e689ba409e11df5d3e784770b267e">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/3be9eea216a4dfd7ee8ec40986f890d9/synonym/0a4e689ba409e11df5d3e784770b267e"><i>Picea rubens</i>  Sarg.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="odd">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/e2377269ee61db23c084a697c1e3cff7/synonym/11fbf8308e907d31a8e98d80aaaa2727"><i><span class="matchHighlight">Abies</span> americana</i>  Mill.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/e2377269ee61db23c084a697c1e3cff7/synonym/11fbf8308e907d31a8e98d80aaaa2727">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/e2377269ee61db23c084a697c1e3cff7/synonym/11fbf8308e907d31a8e98d80aaaa2727"><i>Tsuga canadensis</i>  (L.) Carrière</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+    <tr class="even">
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/e9a1a62e8315bbfb3a5a42222c4e048c/synonym/9ddc5f1a1190cd672107bf0cd5276242"><i><span class="matchHighlight">Abies</span> americana</i>  Prov.</a>
+        </td>
+        <td class="field_header_black">
+            <a href="/annual-checklist/2017/details/species/id/e9a1a62e8315bbfb3a5a42222c4e048c/synonym/9ddc5f1a1190cd672107bf0cd5276242">
+                Species            </a>
+        </td>
+        <td class="field_header_black">synonym for <a href="/annual-checklist/2017/details/species/id/e9a1a62e8315bbfb3a5a42222c4e048c/synonym/9ddc5f1a1190cd672107bf0cd5276242"><i>Abies fraseri</i>  (Pursh) Poir.</a></td>
+        <td>Plantae</td>
+        <td>
+        <a class="wrapLogo tinyImgLink" href="/annual-checklist/2017/details/database/id/45">
+        <img
+          src="/annual-checklist/2017/images/databases/Conifer_Database.gif"
+          alt="Conifer Database"
+          title="Conifer Database" /></a>
+        </td>
+    </tr>
+</table><div class="paginationControl">
+<!-- Previous page link -->
+
+<!-- Show first page if not present -->
+
+<!-- Numbered page links -->
+      <span class="page-current">1</span> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/2/sort//direction/asc">
+        2    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/3/sort//direction/asc">
+        3    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/4/sort//direction/asc">
+        4    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/5/sort//direction/asc">
+        5    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/6/sort//direction/asc">
+        6    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/7/sort//direction/asc">
+        7    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/8/sort//direction/asc">
+        8    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/9/sort//direction/asc">
+        9    </a> |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/10/sort//direction/asc">
+        10    </a> |
+  
+<!-- Show lastpage if not present -->
+            ... |
+        <a href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/25/sort//direction/asc">
+        25    </a> |
+
+<!-- Next page link -->
+  <a class="page-slider" href="/annual-checklist/2017/search/all/key/Abies/fossil/1/match/1/page/2/sort//direction/asc">
+     Next &gt;&gt;
+  </a>
+</div>
+<div class="page_links">
+<a href="/annual-checklist/2017/search/export">
+    Export search results</a> |
+<a href="/annual-checklist/2017/search/all">
+    New search</a>
+</div>                    </div>
+        <div id="footer">
+            <span class="app-name">Annual Checklist Interface</span> <span class="app-version">v1.9 rev c957d6a</span> developed by <a href="http://www.naturalis.nl/">Naturalis Biodiversity Center</a>. Please note, this site uses <a href=http://www.catalogueoflife.org/content/privacy-policy><u>cookies</u></a>. If you continue to use the site we will assume that you agree with this.        </div>
+    </div>
+    </body>
+</html>
